@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "GGSearch",
+  "version": "1.0.0",
+  "description": "GGSearch is a multiple search engine combined metsearch engine that respects peoples privacy.",
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "192": "icons/192.png",
+    "512": "icons/512.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "author": "GGSearch",
+  "homepage_url": "https://ggsearch.eu.org/",
+  "action": {
+    "default_icon": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "192": "icons/192.png",
+    "512": "icons/512.png"
+    },
+    "default_title": "GGSearch - Custom New Tab"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
